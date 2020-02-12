@@ -1,0 +1,150 @@
+#container2 h4 {
+	padding-top: 40px;
+	padding-bottom: 20px;
+	font-size: 1.7rem;
+	color: #265E85;
+}
+
+#container2 .inner_container p {
+	font-size: 1.5rem;
+}
+
+.steam {
+	color: #6B6B6B;
+}
+
+.facebook {
+	color: #3b5999;
+}
+
+.twitter {
+	color: #55acee;
+}
+.email {
+	color: #6A6A6A;
+}
+
+.methods {
+	text-align: left;
+	padding: 30px;
+	padding-bottom: 22px;
+	margin-bottom: 10px;
+	color: #FFF;
+	border-radius: 20px;
+	background: #09131f;
+	background: -moz-linear-gradient(left, #09131f 0%, #20536e 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, #09131f), color-stop(100%, #20536e));
+	background: -webkit-linear-gradient(left, #09131f 0%, #20536e 100%);
+	background: -o-linear-gradient(left, #09131f 0%, #20536e 100%);
+	background: -ms-linear-gradient(left, #09131f 0%, #20536e 100%);
+	background: linear-gradient(to right, #09131f 0%, #20536e 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09131f', endColorstr='#20536e', GradientType=1 );
+}
+
+.methods h5 {
+	font-size: 1.4rem;
+	color: #266485;
+	padding-bottom: 10px;
+}
+
+.methods p {
+	color: #fff !important;
+	font-size: 1rem !important;
+	padding-bottom: 7px;
+}
+
+#TournamentCoverImgContainer {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 50px;
+	border-radius: 20px;
+}
+
+#TournamentCoverImg {
+	width: 100%;
+	object-fit:cover;
+}
+
+.join_button {
+	position: relative;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size: 1.2rem;
+	font-weight:bold;
+	padding: 12px 17px;
+	text-decoration:none;
+	-moz-box-shadow: 0px 5px 0px 0px #2C6A19;
+	-webkit-box-shadow: 0px 5px 0px 0px #2C6A19;
+	box-shadow: 0px 5px 0px 0px #2C6A19;
+	background-color:#418c21;
+}
+
+.join_button:hover {
+	background-color:#50AD28;
+}
+
+#upcomingContainer .join_button:active {
+	bottom:17px;
+}
+
+.video_stream {
+	z-index: 999999;
+}
+
+.teams {
+	text-align: center;
+	padding: 30px;
+	padding-bottom: 22px;
+	margin-bottom: 10px;
+	color: #FFF;
+	border-radius: 20px;
+	background: #081F09;
+	background: -moz-linear-gradient(left, #081F09 0%, #1F6E2B 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, #081F09), color-stop(100%, #1F6E2B));
+	background: -webkit-linear-gradient(left, #081F09 0%, #1F6E2B 100%);
+	background: -o-linear-gradient(left, #081F09 0%, #1F6E2B 100%);
+	background: -ms-linear-gradient(left, #081F09 0%, #1F6E2B 100%);
+	background: linear-gradient(to right, #081F09 0%, #1F6E2B 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#081F09', endColorstr='#1F6E2B', GradientType=1 );
+}
+
+.teams h5 {
+	font-size: 1.4rem;
+	color: #2B9833 !important;
+	padding-bottom: 10px;
+}
+
+.teams p {
+	color: #fff !important;
+	font-size: 1rem !important;
+	padding-bottom: 7px;
+	text-align: center;
+}
+
+@media(max-width:800px) {
+	.video_stream {
+		height: 400px;
+	}
+}
+
+@media(max-width:500px) {
+	.video_stream {
+		height: 250px;
+	}
+	
+	.title {
+		font-size: 1.5rem !important;
+	}
+}
+
+@media(max-width:350px) {
+	.video_stream {
+		height: 150px;
+	}
+}

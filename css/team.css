@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+.container {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+#container2 .video_title {
+	font-size: 1.6rem;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.box_wrapper {
+	display: inline-block;
+	position: relative;
+	width: 350px;
+	height: auto;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	margin-right: 20px;
+	vertical-align: top;
+}
+
+.tournament_image_wrapper {
+	overflow: hidden;
+}
+
+.tournament_image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform: scale(1);
+	transition: all .3s;
+	vertical-align: middle;
+	background-color: #1B2934;
+}
+
+.tournament_image:hover {
+	transform: scale(1.05);
+	transition: all .3s ease-out;
+}
+
+.social_wrapper {
+	margin: 0px auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	z-index: 5000;
+	background: #26577f;
+	color: white;
+	border-radius: 5px;
+	display: inline-block;
+	transform: translateY(-27px)
+}
+
+.social_wrapper h5 {
+	font-size: 1.1rem !important;
+	/*color: #3A4D56;*/
+}
+
+.social_wrapper p {
+	font-size: 0.9rem;
+	color: #E5E5E5 !important;
+	padding-top: 0px;
+	/*color: #7290A0;*/
+}
+
+
+.social_handles {
+	font-size: 1.5rem;
+	color: #f1c40f;
+	padding-bottom: 5px;
+	font-family: 'Rubik', sans-serif;
+	margin: 0;
+}
+
+.social_handles a {
+	color: #ffffff;
+}
+
+.social_wrapper .match_date {
+	font-size: 1.1rem !important;
+}
+
+.social_wrapper .match_time {
+	font-size: 1.1rem !important;
+}
+
+.team_name {
+	font-size: 2rem !important;
+	color: #FFFFFF !important;
+	margin: 0;
+	text-align: center;
+}
+
+.real_name {
+	font-size: 1.1rem !important;
+	color: #2D6EA3 !important;
+	padding-bottom: 8px;
+	font-weight: normal;
+	transform: translateY(-2px);
+	margin: 0;
+	text-align: center;
+}
+
+.members {
+	font-size: 1.4rem;
+	padding-bottom: 3px;
+	font-family: 'Rubik', sans-serif;
+	margin: 0;
+}
+
+.container .email_address {
+	font-size: 2rem;
+	text-align: center;
+}
+
+.member_name_wrapper {
+	font-size: 2rem;
+	padding: 15px 25px;
+	padding-bottom: 43px;
+	background-color: #0E2232;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	min-height: 204px;
+	
+		-webkit-box-shadow: 0px 0px 42px 2px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 0px 42px 2px rgba(0,0,0,0.1);
+	box-shadow: 0px 0px 42px 2px rgba(0,0,0,0.1);
+	box-sizing: border-box;
+}
+
+.member_name_wrapper .member_desc {
+	font-size: 1rem;
+	padding-top: 5px;
+	padding-bottom: 0px;
+	text-align: center;
+	line-height: 20px;
+	margin: 0;
+}
+
+#container2 .inner_container hr {
+	border: none;
+}
+
+#pastTournamentTitle {
+	margin-top: 60px !important;
+}
+
+.pc {
+	background-color: #e74c3c !important;
+}
+
+.ps4 {
+	background-color: #2980b9 !important;
+}
+
+.xbox {
+	background-color: #27ae60 !important;
+}
+
+.admin {
+	color: #2ecc71;
+}
+
+.operations {
+	color: #59C4BB;
+}
+
+.moderator {
+	color: #4BAEDF;
+}
+
+.caster {
+	color: #f1c40f;
+}
+
+.streamer {
+	color: #F3973C;
+}
+
+.graphics {
+	color: #FF62AA;
+}
+
+.videoEditor {
+	color: #E39BFF;
+}
+
+#buyContainer {
+	text-align: center;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.platform_buy {
+	display: inline-block;
+	padding: 20px;
+	padding-bottom: 15px;
+	border-radius: 8px;
+	min-width: 130px;
+	text-align: center;
+	-moz-box-shadow: 0px 5px 0px 0px #112D40;
+	-webkit-box-shadow: 0px 5px 0px 0px #112D40;
+	box-shadow: 0px 5px 0px 0px #112D40;
+	background-color:#1A425E;
+	margin-bottom: 5px;
+}
+
+.platform_buy:hover {
+	background-color: #112A3C;
+}
+
+.platform_logo {
+	height: 20px;
+}
+
+.buy_message {
+	font-size: 1.5rem !important;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+@media(max-width:850px) {
+	.video_fb {
+		width: 100%;
+	}
+}
+
+@media(max-width:600px) {
+	.container .email_address {
+		font-size: 1.5rem;
+	}
+}
+
+@media(max-width:450px) {
+	.box_wrapper {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+@media(max-width:400px) {
+	.container .email_address {
+		font-size: 1.2rem;
+	}
+}
+
+@media(max-width:550px) {
+	.video {
+		height: 300px;
+	}
+}
+
+@media(max-width:350px) {
+	.video {
+		height: 200px;
+	}
+	
+	.container .email_address {
+		font-size: 1rem;
+	}
+}

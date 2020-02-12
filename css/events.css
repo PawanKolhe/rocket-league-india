@@ -1,0 +1,269 @@
+#container2 {
+	padding: 0;
+}
+
+#container2 .video_title {
+	font-size: 1.6rem;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.box_wrapper {
+	display: inline-block;
+	position: relative;
+	width: 350px;
+	height: auto;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	margin-right: 20px;
+	vertical-align: top;
+	border-radius: 10px;
+
+	-webkit-box-shadow: 0px 0px 42px 2px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 0px 42px 2px rgba(0,0,0,0.1);
+	box-shadow: 0px 0px 42px 2px rgba(0,0,0,0.1);
+	box-sizing: border-box;
+}
+
+.title_single_line {
+	padding-bottom: 21px !important;
+}
+
+.tournament_image_wrapper {
+	overflow: hidden;
+}
+
+.tournament_image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform: scale(1);
+	transition: all .3s;
+	vertical-align: middle;
+}
+
+.tournament_image:hover {
+	transform: scale(1.1);
+	 transition: all .3s ease-out;
+}
+
+.tournament_text_wrapper {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: auto;
+	text-align: left;
+	z-index: 5000;
+	background: #11293A;
+	color: white;
+	min-height: 170px;
+	overflow: visible;
+	margin: 0;
+}
+
+.tournament_text_wrapper h5 {
+	font-size: 1.3rem !important;
+	margin: 0;
+	/*color: #3A4D56;*/
+}
+
+.tournament_text_wrapper h6 {
+	font-size: 1.8rem;
+	padding-bottom: 8px;
+	margin: 0;
+	/*color: #1FABDD;*/
+}
+
+.tournament_text_wrapper p {
+	font-size: 0.9rem;
+	color: #E5E5E5 !important;
+	padding-top: 3px;
+	padding-bottom: 0px;
+	/*color: #7290A0;*/
+}
+
+.tournament_text_wrapper .match_date {
+	font-size: 1.1rem !important;
+	margin: 0;
+}
+
+.tournament_text_wrapper .match_time {
+	font-size: 1.1rem !important;
+	margin: 0;
+}
+
+.match_1v1 {
+	color: #f1c40f !important;
+}
+
+.match_2v2 {
+	color: #E85647 !important;
+}
+
+.match_3v3 {
+	color: #2ecc71 !important;
+}
+
+.match_4v4 {
+	color: #9b59b6 !important;
+}
+
+#container2 .inner_container hr {
+	border: none;
+}
+
+#pastTournamentTitle {
+	margin-top: 60px !important;
+}
+
+.platform_name_wrapper {
+	height: 120px;
+	width: 70px;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	text-align: left;
+}
+
+.platform_name {
+	display: inline-block;
+	position: relative;
+	height: auto;
+	width: auto;
+	border: 20px;
+	color: white !important;
+	font-weight: bold;
+	background-color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 5px;
+	
+	-webkit-box-shadow: 0px 5px 12px 1px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 5px 12px 1px rgba(0,0,0,0.2);
+	box-shadow: 0px 5px 12px 1px rgba(0,0,0,0.2);
+	box-sizing: border-box;
+}
+
+.join_button {
+	position: absolute;
+	right: 15px;
+	bottom: 20px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size: 1.2rem;
+	font-weight:bold;
+	padding: 12px 17px;
+	text-decoration:none;
+}
+
+#upcomingContainer .join_button {
+	-moz-box-shadow: 0px 5px 0px 0px #2C6A19;
+	-webkit-box-shadow: 0px 5px 0px 0px #2C6A19;
+	box-shadow: 0px 5px 0px 0px #2C6A19;
+	background-color:#418c21;
+}
+
+#previousContainer .join_button {
+	-moz-box-shadow: 0px 5px 0px 0px #A58609;
+	-webkit-box-shadow: 0px 5px 0px 0px #A58609;
+	box-shadow: 0px 5px 0px 0px #A58609;
+	background-color:#E6BA0C;
+}
+
+#upcomingContainer .join_button:hover {
+	background-color:#50AD28;
+}
+
+#previousContainer .join_button:hover {
+	background-color:#f1c40f;
+}
+
+#upcomingContainer .join_button:active {
+	bottom:17px;
+}
+
+#previousContainer .join_button:active {
+	bottom:17px;
+}
+
+.pc {
+	background-color: #e74c3c !important;
+}
+
+.ps4 {
+	background-color: #2980b9 !important;
+}
+
+.xbox {
+	background-color: #27ae60 !important;
+}
+
+#buyContainer {
+	text-align: center;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-bottom: 20px;
+}
+
+.platform_buy {
+	display: inline-block;
+	padding: 20px;
+	padding-bottom: 15px;
+	border-radius: 8px;
+	min-width: 130px;
+	text-align: center;
+	-moz-box-shadow: 0px 5px 0px 0px #112D40;
+	-webkit-box-shadow: 0px 5px 0px 0px #112D40;
+	box-shadow: 0px 5px 0px 0px #112D40;
+	background-color:#1A425E;
+	margin-bottom: 5px;
+}
+
+.platform_buy:hover {
+	background-color: #112A3C;
+}
+
+.platform_logo {
+	height: 20px;
+}
+
+.buy_message {
+	font-size: 1.5rem !important;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+@media(max-width:850px) {
+	.video_fb {
+		width: 100%;
+	}
+}
+
+@media(max-width:400px) {
+	.box_wrapper {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+@media(max-width:550px) {
+	.video {
+		height: 300px;
+	}
+}
+
+@media(max-width:350px) {
+	.video {
+		height: 200px;
+	}
+}

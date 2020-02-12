@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 1;
+	overflow: hidden;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#canvas {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    float: left;
+    z-index: -5;
+    pointer-events: none;
+	background-color: white;
+	text-align: center;
+	margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.smooth_scroll {
+    z-index: 100;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+#logo {
+	position: absolute;
+   	top: 50%;
+   	left: 50%;
+   	width: 200px;
+   	margin-top: -350px; /* Half the height */
+   	margin-left: -350px; /* Half the width */
+}
+
+#comingSoon {
+	position: absolute;
+   	top: 50%;
+   	left: 50%;
+   	width: 500px;
+   	margin-top: 80px; /* Half the height */
+   	margin-left: -250px; /* Half the width */
+}
+
+#comingSoon h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 3rem;
+	color: #9A9A9A;
+	-webkit-transition: all 1s ease-in-out;
+  	-moz-transition: all 1s ease-in-out;
+  	-o-transition: all 1s ease-in-out;
+  	transition: all 1s ease-in-out;
+}
+
+/*********** MEDIA QUERIES **********/
+/*@media(max-height:700px) {}*/

@@ -1,0 +1,141 @@
+
+
+#buyContainer {
+	text-align: center;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-bottom: 20px;
+}
+
+.platform_buy {
+	display: inline-block;
+	padding: 20px;
+	padding-bottom: 15px;
+	border-radius: 8px;
+	min-width: 130px;
+	text-align: center;
+	-moz-box-shadow: 0px 5px 0px 0px #112D40;
+	-webkit-box-shadow: 0px 5px 0px 0px #112D40;
+	box-shadow: 0px 5px 0px 0px #112D40;
+	background-color:#1A425E;
+	margin-bottom: 10px;
+}
+
+.platform_buy:hover {
+	background-color: #112A3C;
+}
+
+.platform_logo {
+	height: 20px;
+}
+
+.join_button {
+	position: relative;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size: 1.2rem;
+	font-weight:bold;
+	padding: 12px 17px;
+	text-decoration:none;
+	-moz-box-shadow: 0px 5px 0px 0px #2C6A19;
+	-webkit-box-shadow: 0px 5px 0px 0px #2C6A19;
+	box-shadow: 0px 5px 0px 0px #2C6A19;
+	background-color:#418c21;
+}
+
+.join_button:hover {
+	background-color:#50AD28;
+}
+
+
+.news {
+	display: inline-block;
+	margin: 30px;
+	-webkit-box-shadow: 0px 0px 42px 2px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 0px 42px 2px rgba(0,0,0,0.1);
+	box-shadow: 0px 0px 42px 2px rgba(0,0,0,0.1);
+	box-sizing: border-box;
+}
+
+.news a {
+	text-align: center;
+}
+
+.newsImage {
+	width: auto;
+	object-fit: cover;
+	height: 250px;
+	margin: auto;
+	position: relative;
+	display: block;
+}
+
+.newsTextWrapper {
+	padding: 30px;
+	width: 500px;
+	min-height: 170px;
+}
+
+.newsTextWrapper p {
+	margin-top: 10px;
+}
+
+#clock {
+	overflow: hidden;
+}
+
+#clockContainer {
+	background-color: #16364B;
+	overflow: hidden;
+}
+
+.mc-modal {
+    overflow: visible;
+}
+
+@media(max-width:650px) {
+	.news {
+		overflow: hidden;
+		display: block;
+	}
+	
+	.newsImage, .newsTextWrapper{
+		width: auto !important;
+		text-align: center;
+	}
+	
+	#clock {
+		width: 300px !important;
+	}
+}
+
+@media(max-width:550px) {
+	.newsImage {
+		height: 200px;
+	}
+}
+
+@media(max-width:420px) {
+	#thinLine {
+		display: none;
+	}
+	
+	#discordButtonContainer {
+		display: block !important;
+	}
+	
+	.discord_button {
+		margin-top: 20px !important;
+	}
+}
+
+@media(max-width:350px) {
+	.newsImage {
+		height: 150px;
+	}
+}

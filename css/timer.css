@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Days+One|Jura:100,300');
+
+#countdown {
+	position: relative;
+	margin: auto;
+	text-align: center;
+	font-size: 3.8rem;
+	font-family: 'Days One', sans-serif;
+	color: #ffffff;
+	line-height: 65px;
+}
+
+#countdownContainer {
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	/*background-color: #F27224;*/
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ed5c09+0,ef7128+50,ed5c09+100 */
+	background: #ed5c09;
+	background: -moz-linear-gradient(left, #ed5c09 0%, #F78543 50%, #ed5c09 100%);
+	background: -webkit-linear-gradient(left, #ed5c09 0%,#F78543 50%,#ed5c09 100%);
+	background: linear-gradient(to right, #ed5c09 0%,#F78543 50%,#ed5c09 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed5c09', endColorstr='#ed5c09',GradientType=1 );
+
+	/*background: #ed1809;
+	background: -moz-linear-gradient(left, #b10f09 0%, #ff504d 50%, #be1209 100%);
+	background: -webkit-linear-gradient(left, #be1209 0%,#ff504d 50%,#be1209 100%);
+	background: linear-gradient(to right, #be1209 0%,#ff504d 50%,#be1209 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#be1209', endColorstr='#be1209',GradientType=1 );*/
+}
+
+#countdownContainer h1 {
+	font-size: 1.9rem;
+	color: #ffffff;
+	font-family: 'Days One', sans-serif;
+	font-weight: 100;
+}
+
+@media(max-width:600px) {
+	#countdown {
+		font-size: 2.8rem;
+	}
+	#countdownContainer h1 {
+		font-size: 1.4rem;
+		color: #ffffff;
+	}
+}
+	
+@media(max-width:500px) {
+	#countdown {
+		font-size: 2.2rem;
+	}
+	#countdownContainer h1 {
+		font-size: 1.2rem;
+		color: #ffffff;
+	}
+}
+	
+@media(max-width:400px) {
+	#countdown {
+		font-size: 2.0rem;
+	}
+	#countdownContainer h1 {
+		font-size: 1.0rem;
+		color: #ffffff;
+	}
+}
+	
+@media(max-width:380px) {
+	#countdown {
+		font-size: 1.5rem;
+	}
+	#countdownContainer h1 {
+		font-size: 0.9rem;
+		color: #ffffff;
+	}
+}

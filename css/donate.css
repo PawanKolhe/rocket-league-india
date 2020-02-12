@@ -1,0 +1,85 @@
+.container p {
+	text-align: center;
+}
+
+#container2 .inner_container a:hover {
+	color: #9FC54A;
+}
+
+.methods {
+	text-align: center;
+	color: #FFF;
+	border-radius: 20px;
+	background: #09131f;
+	background: -moz-linear-gradient(left, #09131f 0%, #20536e 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, #09131f), color-stop(100%, #20536e));
+	background: -webkit-linear-gradient(left, #09131f 0%, #20536e 100%);
+	background: -o-linear-gradient(left, #09131f 0%, #20536e 100%);
+	background: -ms-linear-gradient(left, #09131f 0%, #20536e 100%);
+	background: linear-gradient(to right, #09131f 0%, #20536e 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09131f', endColorstr='#20536e', GradientType=1 );
+}
+
+.methods h5 {
+	font-size: 1.4rem;
+	color: #2A7096;
+	padding-bottom: 10px;
+}
+
+.methods p {
+	color: #fff !important;
+	font-size: 1rem;
+	padding-bottom: 7px;
+}
+
+#profilePic {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+#paypalLogo {
+	height: 50px;
+	margin-bottom: 15px;
+}
+
+#patreonLogo {
+	height: 140px;
+}
+
+
+#paytmLogo {
+	height: 50px;
+	margin-bottom: 15px;
+}
+
+#upiLogo {
+	height: 70px;
+	margin-bottom: 5px;
+}
+
+#mobileNumber {
+	font-size: 2rem !important;
+	margin-bottom: 10px;
+}
+
+#qrcode {
+	width: 350px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.social_links {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.social_links:hover {
+	color: #F7A91B !important;
+}
+
+@media(max-width:400px) {
+	#qrcode {
+		width: 100%;
+	}
+}

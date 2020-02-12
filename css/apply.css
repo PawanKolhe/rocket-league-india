@@ -1,0 +1,103 @@
+#container2 h4 {
+	padding-top: 40px;
+	padding-bottom: 20px;
+	font-size: 1.7rem;
+	color: #265E85;
+}
+
+#container2 .inner_container hr {
+	margin-bottom: 20px;
+}
+
+#container3 h4 {
+	padding-top: 40px;
+	padding-bottom: 20px;
+	font-size: 1.7rem;
+	color: #265E85;
+}
+
+#container3 .inner_container hr {
+	margin-bottom: 20px;
+}
+
+.highlight {
+	font-weight: 700;
+}
+
+.join_button {
+	position: relative;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size: 1.2rem;
+	font-weight:bold;
+	padding: 12px 17px;
+	text-decoration:none;
+	-moz-box-shadow: 0px 5px 0px 0px #2C6A19;
+	-webkit-box-shadow: 0px 5px 0px 0px #2C6A19;
+	box-shadow: 0px 5px 0px 0px #2C6A19;
+	background-color:#418c21;
+}
+
+.join_button:hover {
+	background-color:#50AD28;
+}
+
+
+@media(max-width:850px) {
+	.video_fb {
+		width: 100%;
+	}
+	.twitch_stream {
+		width: 100%;
+	}
+}
+
+@media(max-width:800px) {
+	.video_stream {
+		height: 400px;
+	}
+	.twitch_stream {
+		height: 400px;
+	}
+}
+
+@media(max-width:500px) {
+	.video_stream {
+		height: 250px;
+	}
+	.twitch_stream {
+		height: 250px;
+	}
+}
+
+@media(max-width:350px) {
+	.video_stream {
+		height: 150px;
+	}
+	.twitch_stream {
+		height: 150px;
+	}
+}
+
+@media(max-width:550px) {
+	.video {
+		height: 300px;
+	}
+	.twitch_stream {
+		height: 300px;
+	}
+}
+
+@media(max-width:350px) {
+	.video {
+		height: 200px;
+	}
+	.twitch_stream {
+		height: 200px;
+	}
+}
